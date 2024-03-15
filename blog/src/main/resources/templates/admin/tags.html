@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!--移动端的预览设置，用于适配移动端-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="/Semantic-UI-CSS-master/semantic.min.css">
+    <link rel="stylesheet" href="/css/myblog.css">
+    <title>后台管理</title>
+
+
+</head>
+<body>
+    <!--导航-->
+    <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+        <div class="ui container">
+            <div class="ui inverted secondary menu stackable">
+                <h2 class="ui teal header item">管理后台</h2>
+                <a href="/admin/blogs" class="m-item  item m-mobile-hide"><i class="home icon"></i>博客</a>
+                <a href="/admin/types" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+                <a href="/admin/tags" class="m-item active item m-mobile-hide"><i class="tags icon"></i>标签</a>
+                <a href="/admin/comments" class="m-item item m-mobile-hide"><i class="comment icon"></i>评论管理</a>
+                <div class="right menu">
+                    <div class="ui dropdown item m-item m-mobile-hide">
+                        <img src="src="/images/头像.jpg"" class="ui avatar image">
+                        &nbsp;&nbsp;Chester
+                        <i class="dropdown icon"></i>
+                        <div class="menu ">
+                            <a class="item " href="/user/logout">注销</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a id="b1" href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!--二级导航-->
+    <div class="ui menu attached inverted ">
+        <div class="ui container">
+            <a href="/admin/tag-input" class="item">新增</a>
+            <a href="/admin/tags" class="active item">列表</a>
+        </div>
+    </div>
+    <!--中间内容-->
+    <div class="m-container-small m-padded-tb-big">
+        <div class="ui container">
+            <div  class="ui form segment inverted" >
+                <div class="fields inline">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="标签" id="name">
+                    </div>
+
+
+                    <div class="field right aligned">
+                        <button class="ui small teal basic button" onclick="initialization()"><i class="search icon"></i>搜索</button>
+                    </div>
+                </div>
+            </div>
+            <div id="table-container">
+                <table th:fragment="table_refresh" class="ui table inverted celled center aligned">
+                    <thread>
+                        <tr>
+                            <th></th>
+                            <th>标签名称</th>
+                            <th>博客数量</th>
+                            <th>更新时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                    <tr th:each="tag,iter:${tags}">
+                        <td th:text="${iter.index+1}"></td>
+                        <td th:text="${tag.getName()}"></td>
+                        <td th:text="${tag.getNumber()}"></td>
+                        <td th:text="${#dates.format(tag.getDate(),'yyyy-MM-dd')}"></td>
+                        <td>
+                            <a class="ui button  teal basic mini " th:href="'/admin/tag-input/'+${tag.getId()}">编辑</a>
+                            <a class="ui button  red basic mini " th:attr="data-id=${tag.getId()}" onclick="deleteTag(this)">删除</a>
+                        </td>
+                    </tr>
+
+
+
+                    </tbody>
+                    <tfoot>
+                    <tr >
+                        <th colspan="6">
+                            <div class="ui pagination menu mini">
+                                <a onclick="pre()" class="ui item ">上一页</a>
+                                <a onclick="next()" class="ui item ">下一页</a>
+                            </div>
+                            <a href="/admin/tag-input" class="ui mini right floated teal basic button">新增</a>
+                        </th>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/Semantic-UI-CSS-master/semantic.min.js"></script>
+<script type="text/javascript">
+
+    $("#b1").click(function (){
+        $(".m-item").toggleClass("m-mobile-hide");
+    });
+    $('#payButton').popup({
+    popup:$('.popup.payQR'),
+    on:'click',
+    position:'bottom center'
+    });
+    $('.ui.dropdown').dropdown({
+        on: 'hover'
+    })
+
+    var currentPage=1;
+    var size=6;
+    var begin=0;
+
+    function initialization() {
+        begin=0;
+        loadData();
+    }
+    function next() {
+        currentPage++;
+        begin+=size;
+        loadData();
+    }
+    function pre() {
+        if (begin>0){
+            begin-=size;
+            loadData();
+        }
+    }
+
+
+    function loadData(){
+        $.ajax({
+            url:"/tag",
+            data:{"begin":begin,"size":size,name:$("[name='name']").val()},
+            type:"get",
+            success:function (result) {
+                $("#table-container").html(result);
+            }
+        })
+    }
+    function deleteTag(button) {
+        $.ajax({
+            url: "/tag",
+            data:{"id":$(button).attr("data-id")},
+            type:"delete",
+
+            success:function(result){
+                $("body").html(result);
+            }
+        })
+    }
+</script>
+</body>
+</html>

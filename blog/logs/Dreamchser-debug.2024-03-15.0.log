@@ -1,0 +1,119 @@
+2024-03-15 12:03:18.943 DEBUG 19124 --- [http-nio-9090-exec-9] com.yoyo.mapper.UserMapper.findUserByCondition : ==>  Preparing: SELECT u.name, u.password FROM user u WHERE 1 = 1 AND u.password = ? AND u.name = ?
+2024-03-15 12:03:18.955 DEBUG 19124 --- [http-nio-9090-exec-9] com.yoyo.mapper.UserMapper.findUserByCondition : ==> Parameters: admin(String), admin(String)
+2024-03-15 12:04:12.089 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.UserMapper.findUserByCondition : ==>  Preparing: SELECT u.name, u.password FROM user u WHERE 1 = 1 AND u.password = ? AND u.name = ?
+2024-03-15 12:04:12.101 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.UserMapper.findUserByCondition : ==> Parameters: admin(String), admin(String)
+2024-03-15 12:04:12.112 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.UserMapper.findUserByCondition : <==      Total: 1
+2024-03-15 12:04:12.131 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeAll : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t
+2024-03-15 12:04:12.132 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeAll : ==> Parameters: 
+2024-03-15 12:04:12.134 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeAll : <==      Total: 4
+2024-03-15 12:04:12.136 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:12.136 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:12.139 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 2
+2024-03-15 12:04:12.139 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeById : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE t.id =?
+2024-03-15 12:04:12.139 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeById : ==> Parameters: 1(Integer)
+2024-03-15 12:04:12.140 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeById : <==      Total: 1
+2024-03-15 12:04:12.141 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagByIds : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE t.id IN ( ? )
+2024-03-15 12:04:12.141 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagByIds : ==> Parameters: 4(Integer)
+2024-03-15 12:04:12.142 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagByIds : <==      Total: 1
+2024-03-15 12:04:12.142 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeById : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE t.id =?
+2024-03-15 12:04:12.142 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeById : ==> Parameters: 1(Integer)
+2024-03-15 12:04:12.143 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeById : <==      Total: 1
+2024-03-15 12:04:12.143 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagByIds : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE t.id IN ( ? , ? )
+2024-03-15 12:04:12.144 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagByIds : ==> Parameters: 2(Integer), 4(Integer)
+2024-03-15 12:04:12.145 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagByIds : <==      Total: 2
+2024-03-15 12:04:12.147 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:12.148 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:12.148 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:16.673 DEBUG 13340 --- [http-nio-9090-exec-4] com.yoyo.mapper.TypeMapper.findTypeByPage : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE 1 = 1 ORDER by t.date desc LIMIT ? , ?
+2024-03-15 12:04:16.673 DEBUG 13340 --- [http-nio-9090-exec-4] com.yoyo.mapper.TypeMapper.findTypeByPage : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:16.674 DEBUG 13340 --- [http-nio-9090-exec-4] com.yoyo.mapper.TypeMapper.findTypeByPage : <==      Total: 4
+2024-03-15 12:04:16.675 DEBUG 13340 --- [http-nio-9090-exec-4] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:16.675 DEBUG 13340 --- [http-nio-9090-exec-4] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:16.676 DEBUG 13340 --- [http-nio-9090-exec-4] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:17.361 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.TagMapper.findTagByPage : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE 1=1 ORDER by t.date desc LIMIT ? , ?
+2024-03-15 12:04:17.361 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.TagMapper.findTagByPage : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:17.363 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.TagMapper.findTagByPage : <==      Total: 3
+2024-03-15 12:04:17.363 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:17.363 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:17.364 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:17.874 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.CommentMapper.findCommentByPage : ==>  Preparing: SELECT c.id, c.name, c.email, c.blog, c.time, c.isAdmin,c.content,c.parent FROM comment c WHERE 1 = 1 ORDER by c.time desc LIMIT ? , ?
+2024-03-15 12:04:17.874 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.CommentMapper.findCommentByPage : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:17.876 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.CommentMapper.findCommentByPage : <==      Total: 0
+2024-03-15 12:04:17.876 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:17.877 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:17.877 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:18.616 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByPage : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE 1=1 ORDER by t.date desc LIMIT ? , ?
+2024-03-15 12:04:18.616 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByPage : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:18.618 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByPage : <==      Total: 3
+2024-03-15 12:04:18.618 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:18.618 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:18.620 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:18.992 DEBUG 13340 --- [http-nio-9090-exec-10] com.yoyo.mapper.TypeMapper.findTypeByPage : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE 1 = 1 ORDER by t.date desc LIMIT ? , ?
+2024-03-15 12:04:18.992 DEBUG 13340 --- [http-nio-9090-exec-10] com.yoyo.mapper.TypeMapper.findTypeByPage : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:18.993 DEBUG 13340 --- [http-nio-9090-exec-10] com.yoyo.mapper.TypeMapper.findTypeByPage : <==      Total: 4
+2024-03-15 12:04:18.994 DEBUG 13340 --- [http-nio-9090-exec-10] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:18.994 DEBUG 13340 --- [http-nio-9090-exec-10] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:18.994 DEBUG 13340 --- [http-nio-9090-exec-10] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:19.272 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeAll : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t
+2024-03-15 12:04:19.272 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeAll : ==> Parameters: 
+2024-03-15 12:04:19.274 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeAll : <==      Total: 4
+2024-03-15 12:04:19.274 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:19.274 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:19.275 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 2
+2024-03-15 12:04:19.276 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeById : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE t.id =?
+2024-03-15 12:04:19.276 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeById : ==> Parameters: 1(Integer)
+2024-03-15 12:04:19.277 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeById : <==      Total: 1
+2024-03-15 12:04:19.277 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TagMapper.findTagByIds : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE t.id IN ( ? )
+2024-03-15 12:04:19.277 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TagMapper.findTagByIds : ==> Parameters: 4(Integer)
+2024-03-15 12:04:19.278 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TagMapper.findTagByIds : <==      Total: 1
+2024-03-15 12:04:19.278 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeById : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE t.id =?
+2024-03-15 12:04:19.278 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeById : ==> Parameters: 1(Integer)
+2024-03-15 12:04:19.279 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TypeMapper.findTypeById : <==      Total: 1
+2024-03-15 12:04:19.279 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TagMapper.findTagByIds : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE t.id IN ( ? , ? )
+2024-03-15 12:04:19.279 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TagMapper.findTagByIds : ==> Parameters: 2(Integer), 4(Integer)
+2024-03-15 12:04:19.280 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.TagMapper.findTagByIds : <==      Total: 2
+2024-03-15 12:04:19.280 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:19.280 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:19.281 DEBUG 13340 --- [http-nio-9090-exec-1] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:19.801 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeAll : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t
+2024-03-15 12:04:19.801 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeAll : ==> Parameters: 
+2024-03-15 12:04:19.803 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TypeMapper.findTypeAll : <==      Total: 4
+2024-03-15 12:04:19.803 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagAll : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t
+2024-03-15 12:04:19.803 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagAll : ==> Parameters: 
+2024-03-15 12:04:19.804 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.TagMapper.findTagAll : <==      Total: 3
+2024-03-15 12:04:19.804 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:19.804 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:19.805 DEBUG 13340 --- [http-nio-9090-exec-2] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:20.577 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.TagMapper.findTagByPage : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE 1=1 ORDER by t.date desc LIMIT ? , ?
+2024-03-15 12:04:20.577 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.TagMapper.findTagByPage : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:20.579 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.TagMapper.findTagByPage : <==      Total: 3
+2024-03-15 12:04:20.579 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:20.580 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:20.580 DEBUG 13340 --- [http-nio-9090-exec-5] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:21.266 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.TypeMapper.findTypeByPage : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE 1 = 1 ORDER by t.date desc LIMIT ? , ?
+2024-03-15 12:04:21.266 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.TypeMapper.findTypeByPage : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:21.267 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.TypeMapper.findTypeByPage : <==      Total: 4
+2024-03-15 12:04:21.267 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:21.267 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:21.268 DEBUG 13340 --- [http-nio-9090-exec-7] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0
+2024-03-15 12:04:21.567 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeAll : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t
+2024-03-15 12:04:21.567 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeAll : ==> Parameters: 
+2024-03-15 12:04:21.568 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeAll : <==      Total: 4
+2024-03-15 12:04:21.568 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:21.569 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 0(Integer), 6(Integer)
+2024-03-15 12:04:21.570 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 2
+2024-03-15 12:04:21.570 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeById : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE t.id =?
+2024-03-15 12:04:21.570 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeById : ==> Parameters: 1(Integer)
+2024-03-15 12:04:21.570 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeById : <==      Total: 1
+2024-03-15 12:04:21.571 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByIds : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE t.id IN ( ? )
+2024-03-15 12:04:21.571 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByIds : ==> Parameters: 4(Integer)
+2024-03-15 12:04:21.571 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByIds : <==      Total: 1
+2024-03-15 12:04:21.571 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeById : ==>  Preparing: SELECT t.id, t.name, t.introduction, t.number, t.date FROM type t WHERE t.id =?
+2024-03-15 12:04:21.571 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeById : ==> Parameters: 1(Integer)
+2024-03-15 12:04:21.572 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TypeMapper.findTypeById : <==      Total: 1
+2024-03-15 12:04:21.572 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByIds : ==>  Preparing: SELECT t.id, t.name, t.number, t.date FROM tag t WHERE t.id IN ( ? , ? )
+2024-03-15 12:04:21.572 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByIds : ==> Parameters: 2(Integer), 4(Integer)
+2024-03-15 12:04:21.572 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.TagMapper.findTagByIds : <==      Total: 2
+2024-03-15 12:04:21.573 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==>  Preparing: SELECT b.id, b.title, b.summary, b.content, b.date, b.type, b.views, b.tags, b.comments, b.pictureUrl, b.isRecommend, b.isReprint, b.isAppreciation, b.isComment, b.property, b.state FROM blog b WHERE 1 = 1 AND b.isRecommend = ? AND b.state = ? ORDER by b.date desc LIMIT ?,?
+2024-03-15 12:04:21.573 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : ==> Parameters: 1(Integer), 1(Integer), 0(Integer), 3(Integer)
+2024-03-15 12:04:21.573 DEBUG 13340 --- [http-nio-9090-exec-8] com.yoyo.mapper.BlogMapper.findBlogByCondition : <==      Total: 0

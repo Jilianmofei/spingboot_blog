@@ -1,0 +1,700 @@
+2023-12-27 18:08:59.348  INFO 13208 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 13208 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:08:59.351  INFO 13208 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:09:01.442  INFO 13208 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:09:01.459  INFO 13208 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:09:01.459  INFO 13208 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:09:01.568  INFO 13208 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:09:01.569  INFO 13208 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2148 ms
+2023-12-27 18:09:01.758  INFO 13208 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:09:02.040  INFO 13208 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:09:02.851  INFO 13208 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:09:03.001  INFO 13208 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:09:03.391  INFO 13208 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:09:03.408  INFO 13208 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.824 seconds (JVM running for 6.331)
+2023-12-27 18:10:29.382  INFO 12764 --- [main] com.yoyo.ApplicationTests : Starting ApplicationTests on DESKTOP-Q82RU63 with PID 12764 (started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:10:29.386  INFO 12764 --- [main] com.yoyo.ApplicationTests : The following profiles are active: server
+2023-12-27 18:10:30.815  INFO 12764 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:10:31.073  INFO 12764 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:10:32.246  INFO 12764 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:10:32.403  INFO 12764 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:10:32.875  INFO 12764 --- [main] com.yoyo.ApplicationTests : Started ApplicationTests in 4.069 seconds (JVM running for 5.323)
+2023-12-27 18:10:33.455  INFO 12764 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:10:33.456  INFO 12764 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:10:33.459  INFO 12764 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:11:41.950  INFO 3492 --- [main] com.yoyo.ApplicationTests : Starting ApplicationTests on DESKTOP-Q82RU63 with PID 3492 (started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:11:41.953  INFO 3492 --- [main] com.yoyo.ApplicationTests : The following profiles are active: server
+2023-12-27 18:11:43.238  INFO 3492 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:11:43.482  INFO 3492 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:11:44.621  INFO 3492 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:11:44.779  INFO 3492 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:11:45.240  INFO 3492 --- [main] com.yoyo.ApplicationTests : Started ApplicationTests in 3.86 seconds (JVM running for 5.059)
+2023-12-27 18:11:45.741  INFO 3492 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:11:45.742  INFO 3492 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:11:45.745  INFO 3492 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:11:58.771  INFO 13216 --- [main] com.yoyo.ApplicationTests : Starting ApplicationTests on DESKTOP-Q82RU63 with PID 13216 (started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:11:58.774  INFO 13216 --- [main] com.yoyo.ApplicationTests : The following profiles are active: server
+2023-12-27 18:12:00.111  INFO 13216 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:12:00.342  INFO 13216 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:12:01.516  INFO 13216 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:12:01.687  INFO 13216 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:12:02.122  INFO 13216 --- [main] com.yoyo.ApplicationTests : Started ApplicationTests in 3.939 seconds (JVM running for 5.255)
+2023-12-27 18:12:02.601  INFO 13216 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:12:02.602  INFO 13216 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:12:02.605  INFO 13216 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:16:22.790  INFO 13208 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:16:22.791  INFO 13208 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:16:22.794  INFO 13208 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:16:25.026  INFO 11668 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 11668 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:16:25.031  INFO 11668 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:16:27.195  INFO 11668 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:16:27.214  INFO 11668 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:16:27.215  INFO 11668 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:16:27.327  INFO 11668 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:16:27.327  INFO 11668 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2196 ms
+2023-12-27 18:16:27.467  INFO 11668 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:16:27.694  INFO 11668 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:16:28.560  INFO 11668 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:16:28.692  INFO 11668 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:16:29.034  INFO 11668 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:16:29.049  INFO 11668 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.806 seconds (JVM running for 5.433)
+2023-12-27 18:33:27.894  INFO 11668 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:33:27.912  INFO 11668 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:33:27.919  INFO 11668 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:33:32.719  INFO 10156 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 10156 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:33:32.728  INFO 10156 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:33:34.501  INFO 10156 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:33:34.511  INFO 10156 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:33:34.511  INFO 10156 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:33:34.607  INFO 10156 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:33:34.608  INFO 10156 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1805 ms
+2023-12-27 18:33:34.749  INFO 10156 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:33:35.017  INFO 10156 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:33:35.765  INFO 10156 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:33:35.881  INFO 10156 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:33:36.208  INFO 10156 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:33:36.221  INFO 10156 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.235 seconds (JVM running for 4.838)
+2023-12-27 18:34:23.760  INFO 10156 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:34:23.762  INFO 10156 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:34:23.764  INFO 10156 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:34:26.823  INFO 11772 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 11772 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:34:26.826  INFO 11772 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:34:28.529  INFO 11772 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:34:28.542  INFO 11772 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:34:28.542  INFO 11772 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:34:28.638  INFO 11772 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:34:28.638  INFO 11772 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1753 ms
+2023-12-27 18:34:28.769  INFO 11772 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:34:28.996  INFO 11772 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:34:29.699  INFO 11772 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:34:29.811  INFO 11772 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:34:30.112  INFO 11772 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:34:30.130  INFO 11772 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.018 seconds (JVM running for 4.513)
+2023-12-27 18:39:47.573  INFO 11772 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:39:47.574  INFO 11772 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:39:47.576  INFO 11772 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:39:51.048  INFO 10424 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 10424 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:39:51.052  INFO 10424 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:39:52.953  INFO 10424 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:39:52.971  INFO 10424 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:39:52.972  INFO 10424 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:39:53.094  INFO 10424 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:39:53.095  INFO 10424 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1963 ms
+2023-12-27 18:39:53.259  INFO 10424 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:39:53.528  INFO 10424 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:39:54.374  INFO 10424 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:39:54.505  INFO 10424 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:39:54.827  INFO 10424 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:39:54.839  INFO 10424 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.518 seconds (JVM running for 5.07)
+2023-12-27 18:40:10.692  INFO 10424 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 18:40:10.693  INFO 10424 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 18:40:10.715  INFO 10424 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 21 ms
+2023-12-27 18:40:10.813  INFO 10424 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 18:40:10.813  INFO 10424 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 18:40:10.814  INFO 10424 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 18:40:10.814  INFO 10424 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 18:40:10.817  INFO 10424 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 18:40:12.068  INFO 10424 --- [Druid-ConnectionPool-Create-1708084589] com.alibaba.druid.pool.DruidAbstractDataSource : {dataSource-1} failContinuous is true
+2023-12-27 18:42:30.727  INFO 10424 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 18:42:30.727  INFO 10424 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 18:42:30.727  INFO 10424 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 18:42:30.727  INFO 10424 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 18:42:30.727  INFO 10424 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 18:44:10.105  INFO 10424 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:44:10.106  INFO 10424 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:44:10.107  INFO 10424 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:44:13.900  INFO 14440 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 14440 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:44:13.907  INFO 14440 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:44:15.897  INFO 14440 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:44:15.914  INFO 14440 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:44:15.915  INFO 14440 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:44:16.041  INFO 14440 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:44:16.041  INFO 14440 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2041 ms
+2023-12-27 18:44:16.202  INFO 14440 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:44:16.511  INFO 14440 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:44:17.371  INFO 14440 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:44:17.493  INFO 14440 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:44:17.813  INFO 14440 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:44:17.827  INFO 14440 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.701 seconds (JVM running for 5.334)
+2023-12-27 18:44:21.341  INFO 14440 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 18:44:21.342  INFO 14440 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 18:44:21.353  INFO 14440 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 10 ms
+2023-12-27 18:44:21.416  INFO 14440 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 18:44:21.416  INFO 14440 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 18:44:21.417  INFO 14440 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 18:44:21.417  INFO 14440 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 18:44:21.418  INFO 14440 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 18:44:22.031  INFO 14440 --- [Druid-ConnectionPool-Create-2039328061] com.alibaba.druid.pool.DruidAbstractDataSource : {dataSource-1} failContinuous is true
+2023-12-27 18:47:32.946  INFO 14440 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:47:32.948  INFO 14440 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:47:32.950  INFO 14440 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:47:36.112  INFO 15416 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 15416 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:47:36.115  INFO 15416 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:47:37.802  INFO 15416 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:47:37.815  INFO 15416 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:47:37.816  INFO 15416 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:47:37.908  INFO 15416 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:47:37.908  INFO 15416 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1729 ms
+2023-12-27 18:47:38.032  INFO 15416 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:47:38.261  INFO 15416 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:47:38.960  INFO 15416 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:47:39.071  INFO 15416 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:47:39.384  INFO 15416 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:47:39.397  INFO 15416 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 3.999 seconds (JVM running for 4.52)
+2023-12-27 18:48:05.178  INFO 15416 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 18:48:05.180  INFO 15416 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 18:48:05.205  INFO 15416 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 25 ms
+2023-12-27 18:48:05.272  INFO 15416 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 18:48:05.272  INFO 15416 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 18:48:05.273  INFO 15416 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 18:48:05.273  INFO 15416 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 18:48:05.276  INFO 15416 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 18:48:06.452  INFO 15416 --- [Druid-ConnectionPool-Create-989171574] com.alibaba.druid.pool.DruidAbstractDataSource : {dataSource-1} failContinuous is true
+2023-12-27 18:59:00.874  INFO 15416 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:59:00.875  INFO 15416 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:59:00.877  INFO 15416 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 18:59:04.831  INFO 16644 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 16644 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 18:59:04.835  INFO 16644 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 18:59:06.711  INFO 16644 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 18:59:06.729  INFO 16644 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 18:59:06.730  INFO 16644 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 18:59:06.836  INFO 16644 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 18:59:06.836  INFO 16644 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1943 ms
+2023-12-27 18:59:07.006  INFO 16644 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 18:59:07.302  INFO 16644 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 18:59:08.135  INFO 16644 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:59:08.260  INFO 16644 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 18:59:08.628  INFO 16644 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 18:59:08.642  INFO 16644 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.531 seconds (JVM running for 5.074)
+2023-12-27 18:59:22.636  INFO 16644 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 18:59:22.637  INFO 16644 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 18:59:22.661  INFO 16644 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 24 ms
+2023-12-27 18:59:22.739  INFO 16644 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 18:59:22.740  INFO 16644 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 18:59:22.740  INFO 16644 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 18:59:22.740  INFO 16644 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 18:59:22.742  INFO 16644 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 18:59:24.064  INFO 16644 --- [Druid-ConnectionPool-Create-1410791643] com.alibaba.druid.pool.DruidAbstractDataSource : {dataSource-1} failContinuous is true
+2023-12-27 18:59:55.725  INFO 16644 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 18:59:55.726  INFO 16644 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 18:59:55.728  INFO 16644 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 19:00:00.105  INFO 17768 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 17768 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 19:00:00.109  INFO 17768 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 19:00:02.641  INFO 17768 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 19:00:02.669  INFO 17768 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 19:00:02.670  INFO 17768 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 19:00:02.828  INFO 17768 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 19:00:02.828  INFO 17768 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2620 ms
+2023-12-27 19:00:03.013  INFO 17768 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 19:00:03.273  INFO 17768 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 19:00:04.173  INFO 17768 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 19:00:04.329  INFO 17768 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 19:00:04.724  INFO 17768 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 19:00:04.739  INFO 17768 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 5.553 seconds (JVM running for 6.265)
+2023-12-27 19:00:07.203  INFO 17768 --- [http-nio-9090-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 19:00:07.203  INFO 17768 --- [http-nio-9090-exec-2] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 19:00:07.227  INFO 17768 --- [http-nio-9090-exec-2] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 24 ms
+2023-12-27 19:00:07.294  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 19:00:07.295  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:00:07.295  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:00:07.295  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 19:00:07.299  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 19:00:38.112  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 19:00:38.113  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:00:38.113  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:00:38.113  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 19:00:38.114  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 19:00:44.041  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 19:00:44.042  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:00:44.042  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:00:44.042  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 19:00:44.043  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 19:00:45.946  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/archives
+2023-12-27 19:00:45.947  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:00:45.947  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:00:45.947  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 19:00:45.947  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.archives
+2023-12-27 19:00:50.824  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_blog/4
+2023-12-27 19:00:50.824  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:00:50.825  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:00:50.825  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [4]
+2023-12-27 19:00:50.825  INFO 17768 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.blog
+2023-12-27 19:00:59.490  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 19:00:59.491  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:00:59.492  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:00:59.492  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 19:00:59.492  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 19:01:19.832  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 19:01:19.832  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:01:19.832  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:01:19.832  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 19:01:19.832  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 19:01:38.106  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 19:01:38.107  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 19:01:38.107  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 19:01:38.107  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 19:01:38.108  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:02:37.265  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:02:37.268  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:02:37.268  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:02:37.268  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{begin=8, size=8}]
+2023-12-27 20:02:37.268  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:02:40.775  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:02:40.775  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:02:40.775  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:02:40.775  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{begin=0, size=8}]
+2023-12-27 20:02:40.775  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:02:46.804  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:02:46.804  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:02:46.804  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:02:46.804  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:02:46.804  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:02:49.321  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 20:02:49.321  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:02:49.321  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:02:49.321  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:02:49.321  INFO 17768 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 20:02:50.811  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/archives
+2023-12-27 20:02:50.811  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:02:50.811  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:02:50.811  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:02:50.811  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.archives
+2023-12-27 20:02:51.573  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:02:51.573  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:02:51.573  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:02:51.573  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:02:51.573  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:09:03.610  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/archives
+2023-12-27 20:09:03.610  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:09:03.610  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:09:03.610  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:09:03.610  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.archives
+2023-12-27 20:09:05.697  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 20:09:05.697  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:09:05.697  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:09:05.697  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:09:05.697  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 20:09:07.705  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:09:07.705  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:09:07.705  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:09:07.705  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:09:07.705  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:09:08.385  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:09:08.385  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:09:08.385  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:09:08.385  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:09:08.385  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:09:44.010  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/search
+2023-12-27 20:09:44.010  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:09:44.010  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:09:44.010  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{title=admin\login}]
+2023-12-27 20:09:44.010  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index_search
+2023-12-27 20:09:47.562  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:09:47.562  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:09:47.562  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:09:47.562  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:09:47.562  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:10:26.901  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:10:26.901  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:10:26.901  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:10:26.902  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:10:26.902  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:11:07.427  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:11:07.427  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:07.427  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:07.427  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:11:07.427  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:11:14.517  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:11:14.517  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:14.518  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:14.518  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:11:14.519  INFO 17768 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:11:17.424  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 20:11:17.424  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:17.424  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:17.424  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:11:17.424  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 20:11:18.449  INFO 17768 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/archives
+2023-12-27 20:11:18.449  INFO 17768 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:18.449  INFO 17768 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:18.449  INFO 17768 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:11:18.449  INFO 17768 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.archives
+2023-12-27 20:11:19.754  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:11:19.754  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:19.754  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:19.754  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:11:19.754  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:11:21.736  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:11:21.736  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:21.736  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:21.739  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:11:21.739  INFO 17768 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:11:22.963  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:11:22.965  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:22.965  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:22.965  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:11:22.965  INFO 17768 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:11:35.824  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/login
+2023-12-27 20:11:35.824  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:11:35.824  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:11:35.824  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:11:35.824  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.login
+2023-12-27 20:12:16.961  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/login
+2023-12-27 20:12:16.970  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:12:16.970  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:12:16.970  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:12:16.994  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.login
+2023-12-27 20:12:33.060  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/user/login
+2023-12-27 20:12:33.060  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : POST
+2023-12-27 20:12:33.060  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:12:33.060  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{name=111, password=01234}, org.apache.catalina.session.StandardSessionFacade@6be85cc]
+2023-12-27 20:12:33.060  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.UserController.loginUser
+2023-12-27 20:16:10.478  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:16:10.478  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:16:10.478  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:16:10.478  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:16:10.478  INFO 17768 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:16:36.936  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 20:16:36.936  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:16:36.936  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:16:36.936  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:16:36.936  INFO 17768 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 20:16:38.646  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/archives
+2023-12-27 20:16:38.648  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:16:38.648  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:16:38.648  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:16:38.648  INFO 17768 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.archives
+2023-12-27 20:16:42.731  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:16:42.731  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:16:42.733  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:16:42.733  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:16:42.733  INFO 17768 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:26:39.929  INFO 17768 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 20:26:39.930  INFO 17768 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 20:26:39.939  INFO 17768 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 20:50:13.757  INFO 6584 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on DESKTOP-Q82RU63 with PID 6584 (D:\java\java_repository\blog\target\classes started by sunset7 in D:\java\java_repository\blog)
+2023-12-27 20:50:13.762  INFO 6584 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 20:50:15.869  INFO 6584 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 20:50:15.899  INFO 6584 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 20:50:15.900  INFO 6584 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 20:50:16.022  INFO 6584 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 20:50:16.022  INFO 6584 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2114 ms
+2023-12-27 20:50:16.195  INFO 6584 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 20:50:16.468  INFO 6584 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 20:50:17.336  INFO 6584 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 20:50:17.496  INFO 6584 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 20:50:17.874  INFO 6584 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 20:50:17.892  INFO 6584 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 4.934 seconds (JVM running for 5.663)
+2023-12-27 20:50:37.299  INFO 6584 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 20:50:37.299  INFO 6584 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 20:50:37.323  INFO 6584 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 23 ms
+2023-12-27 20:50:37.443  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:50:37.443  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:50:37.444  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:50:37.444  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:50:37.446  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:50:47.720  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:50:47.721  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:50:47.721  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:50:47.721  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:50:47.721  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:50:48.966  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 20:50:48.967  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:50:48.967  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:50:48.967  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:50:48.967  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 20:50:49.993  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/archives
+2023-12-27 20:50:49.995  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:50:49.995  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:50:49.995  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:50:49.995  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.archives
+2023-12-27 20:50:51.776  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:50:51.777  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:50:51.777  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:50:51.777  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:50:51.777  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:53:26.710  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:26.710  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:26.710  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:26.711  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:26.711  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:33.739  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 20:53:33.740  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:33.740  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:33.740  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:33.740  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 20:53:35.910  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/archives
+2023-12-27 20:53:35.910  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:35.911  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:35.911  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 20:53:35.911  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.archives
+2023-12-27 20:53:36.984  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_tags
+2023-12-27 20:53:36.984  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:36.984  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:36.984  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:36.985  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_tags
+2023-12-27 20:53:38.984  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:38.984  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:38.984  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:38.984  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:38.984  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:39.586  INFO 6584 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:53:39.586  INFO 6584 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:39.587  INFO 6584 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:39.587  INFO 6584 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:39.587  INFO 6584 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:53:40.360  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:40.361  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:40.361  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:40.361  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:40.361  INFO 6584 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:41.207  INFO 6584 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:41.208  INFO 6584 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:41.209  INFO 6584 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:41.209  INFO 6584 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{typeId=2}]
+2023-12-27 20:53:41.209  INFO 6584 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:42.154  INFO 6584 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:42.155  INFO 6584 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:42.155  INFO 6584 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:42.155  INFO 6584 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{typeId=3}]
+2023-12-27 20:53:42.155  INFO 6584 --- [http-nio-9090-exec-7] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:42.752  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:42.753  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:42.753  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:42.753  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{typeId=4}]
+2023-12-27 20:53:42.753  INFO 6584 --- [http-nio-9090-exec-6] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:43.349  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:43.351  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:43.351  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:43.351  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{typeId=3}]
+2023-12-27 20:53:43.351  INFO 6584 --- [http-nio-9090-exec-9] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:43.793  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:43.794  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:43.794  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:43.794  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{typeId=2}]
+2023-12-27 20:53:43.794  INFO 6584 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:44.145  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_types
+2023-12-27 20:53:44.145  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:44.145  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:44.147  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{typeId=1}]
+2023-12-27 20:53:44.147  INFO 6584 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.page_types
+2023-12-27 20:53:46.494  INFO 6584 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:53:46.494  INFO 6584 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:46.494  INFO 6584 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:46.494  INFO 6584 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:46.494  INFO 6584 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 20:53:46.728  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 20:53:46.728  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 20:53:46.728  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 20:53:46.728  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 20:53:46.728  INFO 6584 --- [http-nio-9090-exec-4] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 21:34:48.619  INFO 10536 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on LAPTOP-MVJAF8RD with PID 10536 (H:\IDEA缓存\大三下\blog\target\classes started by 86132 in H:\IDEA缓存\大三下\blog)
+2023-12-27 21:34:48.621  INFO 10536 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 21:34:50.606  INFO 10536 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 21:34:50.620  INFO 10536 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 21:34:50.620  INFO 10536 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 21:34:50.621  INFO 10536 --- [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-12-27 21:34:50.622  INFO 10536 --- [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-12-27 21:34:50.622  INFO 10536 --- [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 21:34:50.625  INFO 10536 --- [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-12-27 21:34:50.724  INFO 10536 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 21:34:50.724  INFO 10536 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2060 ms
+2023-12-27 21:34:50.828  INFO 10536 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 21:34:51.013  INFO 10536 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 21:34:51.558  INFO 10536 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:34:51.647  INFO 10536 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 21:34:51.820  INFO 10536 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 21:34:51.829  INFO 10536 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 3.984 seconds (JVM running for 4.635)
+2023-12-27 21:39:33.131  INFO 10536 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:39:33.132  INFO 10536 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 21:39:33.133  INFO 10536 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 21:42:26.122  INFO 12008 --- [main] com.yoyo.ApplicationTests : Starting ApplicationTests on LAPTOP-MVJAF8RD with PID 12008 (started by 86132 in H:\IDEA����\������\blog)
+2023-12-27 21:42:26.124  INFO 12008 --- [main] com.yoyo.ApplicationTests : The following profiles are active: server
+2023-12-27 21:42:28.133  INFO 12008 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 21:42:28.624  INFO 12008 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 21:42:32.121  INFO 12008 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:42:32.732  INFO 12008 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 21:42:33.733  INFO 12008 --- [main] com.yoyo.ApplicationTests : Started ApplicationTests in 8.356 seconds (JVM running for 10.217)
+2023-12-27 21:42:34.469  INFO 12008 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:42:34.470  INFO 12008 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 21:42:34.474  INFO 12008 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 21:45:58.353  INFO 15452 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on LAPTOP-MVJAF8RD with PID 15452 (H:\IDEA缓存\大三下\blog\target\classes started by 86132 in H:\IDEA缓存\大三下\blog)
+2023-12-27 21:45:58.355  INFO 15452 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 21:45:59.203  INFO 15452 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 21:45:59.211  INFO 15452 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 21:45:59.211  INFO 15452 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 21:45:59.212  INFO 15452 --- [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-12-27 21:45:59.213  INFO 15452 --- [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-12-27 21:45:59.213  INFO 15452 --- [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 21:45:59.215  INFO 15452 --- [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-12-27 21:45:59.286  INFO 15452 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 21:45:59.286  INFO 15452 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 899 ms
+2023-12-27 21:45:59.340  INFO 15452 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 21:45:59.394  INFO 15452 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 21:45:59.701  INFO 15452 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:45:59.739  INFO 15452 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 21:45:59.841  INFO 15452 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 21:45:59.858  INFO 15452 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 1.828 seconds (JVM running for 2.7)
+2023-12-27 21:46:44.270  INFO 15452 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 21:46:44.270  INFO 15452 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 21:46:44.276  INFO 15452 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 6 ms
+2023-12-27 21:46:44.292  INFO 15452 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 21:46:44.292  INFO 15452 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:46:44.292  INFO 15452 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:46:44.292  INFO 15452 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 21:46:44.293  INFO 15452 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 21:46:44.507  INFO 15452 --- [Druid-ConnectionPool-Create-1824242116] com.alibaba.druid.pool.DruidAbstractDataSource : {dataSource-1} failContinuous is true
+2023-12-27 21:46:48.063  INFO 15452 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 21:46:48.063  INFO 15452 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:46:48.063  INFO 15452 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:46:48.063  INFO 15452 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 21:46:48.063  INFO 15452 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 21:46:55.369  INFO 15452 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 21:46:55.369  INFO 15452 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:46:55.369  INFO 15452 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:46:55.369  INFO 15452 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 21:46:55.369  INFO 15452 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 21:47:29.506  INFO 15452 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:47:29.507  INFO 15452 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 21:47:29.507  INFO 15452 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 21:47:33.433  INFO 15408 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on LAPTOP-MVJAF8RD with PID 15408 (H:\IDEA缓存\大三下\blog\target\classes started by 86132 in H:\IDEA缓存\大三下\blog)
+2023-12-27 21:47:33.434  INFO 15408 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 21:47:34.236  INFO 15408 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 21:47:34.247  INFO 15408 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 21:47:34.247  INFO 15408 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 21:47:34.248  INFO 15408 --- [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-12-27 21:47:34.248  INFO 15408 --- [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-12-27 21:47:34.248  INFO 15408 --- [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 21:47:34.250  INFO 15408 --- [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-12-27 21:47:34.303  INFO 15408 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 21:47:34.303  INFO 15408 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 847 ms
+2023-12-27 21:47:34.355  INFO 15408 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 21:47:34.403  INFO 15408 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 21:47:34.677  INFO 15408 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:47:34.715  INFO 15408 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 21:47:34.827  INFO 15408 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 21:47:34.834  INFO 15408 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 1.806 seconds (JVM running for 2.607)
+2023-12-27 21:47:34.855  INFO 15408 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 21:47:34.856  INFO 15408 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 21:47:34.859  INFO 15408 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+2023-12-27 21:47:34.870  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/
+2023-12-27 21:47:34.870  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:47:34.870  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 127.0.0.1
+2023-12-27 21:47:34.870  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{}]
+2023-12-27 21:47:34.871  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.index
+2023-12-27 21:47:41.209  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_blog/3
+2023-12-27 21:47:41.210  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:47:41.210  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:47:41.210  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [3]
+2023-12-27 21:47:41.210  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.blog
+2023-12-27 21:47:41.283  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/page_blog/3
+2023-12-27 21:47:41.283  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:47:41.283  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:47:41.283  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [org.apache.catalina.connector.RequestFacade@1982840d, org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'c.name' in 'field list'
+### The error may exist in com/yoyo/mapper/CommentMapper.xml
+### The error may involve com.yoyo.mapper.CommentMapper.findPCommentByBlogId-Inline
+### The error occurred while setting parameters
+### SQL: SELECT                   c.id, c.name, c.email, c.blog, c.time, c.isAdmin,c.content,c.parent               FROM comment c WHERE c.blog =? and c.parent=-1
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'c.name' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'c.name' in 'field list']
+2023-12-27 21:47:41.283  INFO 15408 --- [http-nio-9090-exec-10] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.ControllerExceptionHandler.exceptionHandler
+2023-12-27 21:48:34.627  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/login
+2023-12-27 21:48:34.627  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:48:34.627  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:48:34.627  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 21:48:34.627  INFO 15408 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.login
+2023-12-27 21:48:46.654  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/user/login
+2023-12-27 21:48:46.654  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : POST
+2023-12-27 21:48:46.654  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:48:46.655  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{name=admin, password=admin}, org.apache.catalina.session.StandardSessionFacade@734a6abd]
+2023-12-27 21:48:46.655  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.UserController.loginUser
+2023-12-27 21:48:46.677  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/user/login
+2023-12-27 21:48:46.677  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : POST
+2023-12-27 21:48:46.677  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:48:46.677  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [org.apache.catalina.connector.RequestFacade@1982840d, org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'boke.user' doesn't exist
+### The error may exist in com/yoyo/mapper/UserMapper.xml
+### The error may involve com.yoyo.mapper.UserMapper.findUserByCondition-Inline
+### The error occurred while setting parameters
+### SQL: SELECT                   u.name, u.password               FROM user u WHERE 1 = 1                       AND u.password = ?                                 AND u.name = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'boke.user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'boke.user' doesn't exist]
+2023-12-27 21:48:46.677  INFO 15408 --- [http-nio-9090-exec-5] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.ControllerExceptionHandler.exceptionHandler
+2023-12-27 21:52:36.167  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/user/login
+2023-12-27 21:52:36.167  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : POST
+2023-12-27 21:52:36.168  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:52:36.168  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{name=admin, password=admin}, org.apache.catalina.session.StandardSessionFacade@734a6abd]
+2023-12-27 21:52:36.168  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.UserController.loginUser
+2023-12-27 21:52:36.185  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/user/login
+2023-12-27 21:52:36.186  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : POST
+2023-12-27 21:52:36.186  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:52:36.186  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [org.apache.catalina.connector.RequestFacade@1982840d, org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'boke.user' doesn't exist
+### The error may exist in com/yoyo/mapper/UserMapper.xml
+### The error may involve com.yoyo.mapper.UserMapper.findUserByCondition-Inline
+### The error occurred while setting parameters
+### SQL: SELECT                   u.name, u.password               FROM user u WHERE 1 = 1                       AND u.password = ?                                 AND u.name = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'boke.user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'boke.user' doesn't exist]
+2023-12-27 21:52:36.186  INFO 15408 --- [http-nio-9090-exec-8] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.ControllerExceptionHandler.exceptionHandler
+2023-12-27 21:53:14.538  INFO 15408 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:53:14.539  INFO 15408 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 21:53:14.540  INFO 15408 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2023-12-27 21:53:18.719  INFO 6980 --- [main] com.yoyo.YoYoBlogApplication : Starting YoYoBlogApplication on LAPTOP-MVJAF8RD with PID 6980 (H:\IDEA缓存\大三下\blog\target\classes started by 86132 in H:\IDEA缓存\大三下\blog)
+2023-12-27 21:53:18.720  INFO 6980 --- [main] com.yoyo.YoYoBlogApplication : The following profiles are active: server
+2023-12-27 21:53:19.542  INFO 6980 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9090 (http)
+2023-12-27 21:53:19.547  INFO 6980 --- [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-12-27 21:53:19.547  INFO 6980 --- [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-12-27 21:53:19.548  INFO 6980 --- [main] org.apache.catalina.core.AprLifecycleListener : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-12-27 21:53:19.548  INFO 6980 --- [main] org.apache.catalina.core.AprLifecycleListener : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-12-27 21:53:19.548  INFO 6980 --- [main] org.apache.catalina.core.AprLifecycleListener : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 21:53:19.550  INFO 6980 --- [main] org.apache.catalina.core.AprLifecycleListener : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-12-27 21:53:19.599  INFO 6980 --- [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-12-27 21:53:19.600  INFO 6980 --- [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 854 ms
+2023-12-27 21:53:19.641  INFO 6980 --- [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-12-27 21:53:19.688  INFO 6980 --- [main] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
+2023-12-27 21:53:19.974  INFO 6980 --- [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-27 21:53:20.026  INFO 6980 --- [main] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping : Adding welcome page template: index
+2023-12-27 21:53:20.133  INFO 6980 --- [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-27 21:53:20.149  INFO 6980 --- [main] com.yoyo.YoYoBlogApplication : Started YoYoBlogApplication in 1.704 seconds (JVM running for 2.409)
+2023-12-27 21:53:23.745  INFO 6980 --- [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-27 21:53:23.745  INFO 6980 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2023-12-27 21:53:23.749  INFO 6980 --- [http-nio-9090-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 4 ms
+2023-12-27 21:53:23.759  INFO 6980 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/login
+2023-12-27 21:53:23.759  INFO 6980 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:53:23.759  INFO 6980 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:53:23.759  INFO 6980 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 21:53:23.760  INFO 6980 --- [http-nio-9090-exec-1] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.login
+2023-12-27 21:53:31.211  INFO 6980 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/user/login
+2023-12-27 21:53:31.211  INFO 6980 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : POST
+2023-12-27 21:53:31.211  INFO 6980 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:53:31.211  INFO 6980 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : [{name=admin, password=admin}, org.apache.catalina.session.StandardSessionFacade@531350f5]
+2023-12-27 21:53:31.211  INFO 6980 --- [http-nio-9090-exec-2] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.UserController.loginUser
+2023-12-27 21:53:31.414  INFO 6980 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################URL : http://localhost:9090/admin/blogs
+2023-12-27 21:53:31.414  INFO 6980 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################HTTP_METHOD : GET
+2023-12-27 21:53:31.414  INFO 6980 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################IP : 0:0:0:0:0:0:0:1
+2023-12-27 21:53:31.414  INFO 6980 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################THE ARGS OF THE CONTROLLER : []
+2023-12-27 21:53:31.414  INFO 6980 --- [http-nio-9090-exec-3] com.yoyo.aop.WebLogAspect : ################CLASS_METHOD : com.yoyo.controller.PageController.blogs
+2023-12-27 22:01:39.300  INFO 6980 --- [SpringContextShutdownHook] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-27 22:01:39.300  INFO 6980 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closing ...
+2023-12-27 22:01:39.302  INFO 6980 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed

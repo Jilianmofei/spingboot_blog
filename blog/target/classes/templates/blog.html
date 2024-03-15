@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <!--移动端的预览设置，用于适配移动端-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="/Semantic-UI-CSS-master/semantic.min.css">
+    <link rel="stylesheet" href="/css/myblog.css">
+    <link rel="stylesheet" href="/css/typo.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/lib/prism/prism.css">
+    <link rel="stylesheet" href="/lib/tocbot/tocbot.css">
+    <title>博客详情</title>
+
+
+</head>
+<body>
+    <!--导航-->
+    <nav id="nav" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+        <div class="ui container">
+            <div class="ui inverted secondary menu stackable">
+                <h2 class="ui teal header item">Blog</h2>
+                <a href="/" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+                <a href="/page_types" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+                <a href="/page_tags" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+                <a href="/archives" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+                <div class="m-item right item  m-mobile-hide">
+                    <form action="/search" method="get">
+                        <div class="ui action input inverted transparent ">
+                            <input type="text" name="title" placeholder="search...">
+                            <button class="ui icon button" type="submit">
+                                <i class="search icon"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <a id="b1" href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </nav>
+
+    <!--中间内容-->
+    <div  class="m-container-small m-padded-tb-big m-opacity-mini animated animate__fadeIn">
+        <div class="ui container">
+            <div class="ui top attached segment">
+                <div class="ui list horizontal link  ">
+                    <div class="item">
+                        <img src="/images/头像.jpg" class="ui avatar image" style="height: 40px;width: 40px">
+                        <div class="content"><a href="#" class="header">Chester</a></div>
+                    </div>
+                    <div class="item">
+                        <i class="calendar icon"></i><span th:text="${#dates.format(blog.getDate(),'yyyy-MM-dd')}"></span>
+                    </div>
+                    <div class="item">
+                        <i class="eye icon"></i><span th:text="${blog.getViews()}"></span>
+                    </div>
+                </div>
+            </div>
+            <!--图片区域-->
+            <div class="ui attached segment ">
+                <img th:src="${blog.getPictureUrl()}"  class="ui fluid image rounded m-opacity-no" >
+            </div>
+            <!--内容-->
+            <div class="ui attached segment padded ">
+
+
+                <h2 class="ui header center aligned" th:text="${blog.getTitle()}"></h2>
+
+                <div class="ui grid segment basic two column">
+
+                    <div class="ui  segment basic  column twelve wide">
+                        <div>
+                            分类专栏：
+                            <div class="ui  basic teal left pointing label" th:text="${blog.getType().getName()}"></div>
+                        </div>
+                        <br>
+                        <div >
+                            文章标签：
+                            <div class="ui  basic teal left pointing label" th:each="tag,iter:${blog.getTags()}" th:text="${tag.getName()}">一年总结</div>
+                        </div>
+
+                    </div>
+                    <div class="ui right aligned segment basic column four wide">
+                        <div class="ui label orange basic" th:if="${blog.getProperty()==1}">原创</div>
+                        <div class="ui label orange basic" th:if="${blog.getProperty()==2}">转载</div>
+                        <div class="ui label orange basic" th:if="${blog.getProperty()==3}">翻译</div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div id="content" class="typo typo-selection m-padded-lr-responsive m-text-lined js-toc-content" th:utext="${blog.getContent()}">
+                </div>
+                </div>
+            <!--留言区域-->
+            <div th:fragment="refresh_area" th:if="${blog.getIsComment()}">
+                <div class="ui bottom attached segment" id="comment-container">
+                    <div class="ui comments">
+                        <h3 class="ui dividing header">评论</h3>
+                        <div class="comment" th:each="parent,iter:${parents}">
+                            <a class="ui avatar image ">
+                                <img class="ui avatar image" th:src="${parent.getIsAdmin()==1}?'/images/头像.jpg':'/images/普通头像.jpg'">
+                            </a>
+                            <div class="content">
+                                <a class="author" th:text="${parent.getName()}">Matt</a>
+                                <div class="ui  basic teal mini label " th:if="${parent.getIsAdmin()==1}">博主</div>
+                                <div class="metadata">
+                                    <span class="date" th:text="${#dates.format(parent.getTime(),'yyyy-MM-dd HH:ss')}">Today at 5:42PM</span>
+                                </div>
+                                <div class="text" th:text="${parent.getContent()}">
+                                    How artistic!
+                                </div>
+                                <div class="actions">
+                                    <a class="reply" th:data-name="${parent.getName()}" th:data-parent="${parent.getId()}" onclick="changeParent(this)">回复</a>
+                                </div>
+                            </div>
+                            <div class="comments" >
+                                <div class="comment" th:each="son,iter:${sons}" th:if="${son.getParent()==parent.getId()}">
+                                    <a class="avatar">
+                                        <img class="ui avatar img-circle" th:src="${son.getIsAdmin()==1}?'/images/头像.jpg':'/images/普通头像.jpg'">
+                                    </a>
+                                    <div class="content" >
+                                        <a class="author" th:text="${son.getName()}">Jenny Hess</a>
+                                        <div class="ui  basic teal mini  label " th:if="${son.getIsAdmin()==1}">博主</div>
+                                        <div class="metadata">
+                                            <span class="date" th:text="${#dates.format(son.getTime(),'yyyy-MM-dd HH:ss')}">Just now</span>
+                                        </div>
+                                        <div class="text" th:text="${son.getContent()}">
+                                            Elliot you are always so right :)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <form action="/comment" id="comment"  class="ui form"  method="post">
+                    <input type="hidden" name="blog" th:value="${blog.getId()}">
+                    <input id="parent" type="hidden" name="parent" value="-1">
+                    <div class="field">
+                        <textarea id="id_content" name="content" placeholder="请输入评论信息...(如果误点击了回复，请刷新页面再评论)"></textarea>
+                    </div>
+                    <div class="fields">
+                        <div class="field m-mobile-wide">
+                            <div class="ui left icon input m-margin-bottom-small ">
+                                <i class="user icon"></i>
+                                <input type="text" name="name" placeholder="姓名">
+                            </div>
+                        </div>
+
+                        <div class="field m-mobile-wide">
+                            <div class="ui left icon input  m-margin-bottom-small ">
+                                <i class="mail icon"></i>
+                                <input type="text" name="email" placeholder="邮箱">
+                            </div>
+                        </div>
+                        <div class="field  m-margin-bottom-small m-mobile-wide ">
+                            <button class="ui button teal m-mobile-wide" type="submit"><i class="ui edit icon"></i>评论</button>
+                        </div>
+                    </div>
+                    <div class="ui error message"></div>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="ui vertical icon buttons  m-fixed m-padded m-right-bottom">
+
+        <div id="toTop-button" class="ui icon button "><i class="ui chevron up icon"></i></div>
+        <button id="menuButton" type="button" class="ui button teal">目录</button>
+        <a href="#comment-container" class="ui button teal">留言</a>
+
+    </div>
+    <div id="catalogue" class="ui flowing  popup transition hidden " data-position="left" style="width: 250px !important; ">
+        <ol class="js-toc"></ol>
+    </div>
+    <br>
+    <br>
+
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/Semantic-UI-CSS-master/semantic.min.js"></script>
+<script src="/lib/prism/prism.js"></script>
+<script src="/lib/tocbot/tocbot.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+<script type="text/javascript">
+
+    $("#b1").click(function (){
+        $(".m-item").toggleClass("m-mobile-hide");
+    });
+
+
+    tocbot.init({
+        // Where to render the table of contents.
+        tocSelector: '.js-toc',
+        // Where to grab the headings to build the table of contents.
+        contentSelector: '.js-toc-content',
+        // Which headings to grab inside of the contentSelector element.
+        headingSelector: 'h1, h2, h3',
+        // For headings inside relative or absolute positioned containers within content.
+        hasInnerContainers: true,
+    });
+    $('#payButton').popup({
+    popup:$('.popup.payQR'),
+    on:'click',
+    position:'bottom center'
+    })
+    $('#menuButton').popup({
+        popup:$('#catalogue'),
+        on:'click',
+        position:'left center'
+    })
+
+    $('#toTop-button').click(function () {
+        $(window).scrollTo(0,500);
+    })
+
+    function changeParent(button) {
+        $('#parent').val($(button).attr("data-parent"));
+        $('#id_content').text('@'+$(button).attr("data-name")+':')
+    }
+
+    $('.ui.form').form({
+        fields:{
+            content:{
+                identifier:'content',
+                rules:[{
+                    type:'empty',
+                    prompt:'评论内容：请输入评论内容'
+                }]
+            },
+            name:{
+                identifier:'name',
+                rules:[{
+                    type:'empty',
+                    prompt:'用户昵称：请输入用户昵称'
+                }]
+            },
+            email:{
+                identifier:'email',
+                rules:[{
+                    type:'empty',
+                    prompt:'邮箱：请输入邮箱地址'
+                }]
+            }
+        }
+    })
+</script>
+</body>
+</html>
